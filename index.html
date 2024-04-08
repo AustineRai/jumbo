@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Grid System with Pictures</title>
+    <style>
+        [class*="col"] {
+            padding: 1rem;
+
+        }
+
+        .image-column {
+            padding: 1rem;
+            border: 3px solid rgb(140, 226, 249);
+            border-style: solid;
+            border-radius: 50px;
+        }
+
+        .image-column img {
+            width: 100%;
+            height: auto;
+            border-radius: 50px;
+            align-content: auto;
+            padding: 1rem;
+            display: flex;
+        }
+
+        body {
+            background-image: url("https://i.pinimg.com/564x/26/3b/15/263b1540aa497831f943b14146be001a.jpg");
+            background-size: cover;
+        }
+
+        .jumbotron {
+            padding: 10rem;
+            margin-bottom: 2rem;
+            background-color: #f8f9fa;
+            border-radius: 1rem;
+            text-align: center;
+            background-image: url("https://i.pinimg.com/564x/a5/35/9c/a5359c8b90920725de534d04fd06ea25.jpg");
+            background-size: cover;
+            background-position: center;
+            color: #39273b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Mi Amor</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433994175_2359507624440044_4716785143461076449_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFjYnZuOWU-sXlUUEY2nlOfpNGlKu6Vpx-k0aUq7pWnH4uIQIcIDCk9NdhKJDzNV9pXjdKAQasn9iyYESGTJdwv&_nc_ohc=QjkIbubaffYAX8YA8Hm&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdS0cEx7J87X8FouOE3ObzgsCSTzSCx-p_6fyD3aZJebyw&oe=6624AF57"
+                    alt="Image 1"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433910434_428250199761004_1931071548283874864_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEF-QNm4PCIkAwEATVpo5KhWnjBD_d37JFaeMEP93fskcFX9GoUme58FA_81j-adrq8OTjnj3Pg-yvsa6NFp9G-&_nc_ohc=oXdXcOfSjFUAX9r9Krr&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdSynBYSbYHmrOwrmD9pgljfoB7HOEx2ShVjWUQea_jHrg&oe=6626533C"
+                    alt="Image 2"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433906708_1134106934394723_1994110032205303089_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFP3K24TAXjmWtmVkn7CyrStEsnvtPVA1i0Sye-09UDWI7Y3sxWRExStdgtpXtLGGA8A_ZUTd3rVeEqAUmQxRfU&_nc_ohc=AxmAjK4GVwQAX9nmLmm&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdRo86_j26wJTegKNYfnh0YCGlGzTZ0txSpOMM8Hw1r-sw&oe=6624AD14"
+                    alt="Image 3"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433942863_1074108153878206_7667757034294269240_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEvNFsJShlxvzzsj46GLU4o9qnv8wHA3BL2qe_zAcDcEm_IVOJM5mgEVw1CKGBgP-Bq382w63MsyvfMgmCr13ns&_nc_ohc=BP53JK9AH1MAX-xiSeS&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdSeY1SePepd-dvb4Ok0UVF85CFsdilr5iPS7CKx2geRJQ&oe=66249A10"
+                    alt="Image 4"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/434044848_302039889330360_5869157201205389050_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEFAiRTJycHCC6i43EJiTJTSe3eHCAXmR1J7d4cIBeZHQ5ZL5j3ciSf6IAWne0vyVWrj31VCyr75TphsygsCTyd&_nc_ohc=QVHO8ZC_mKcAX-sh485&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdSRAhFyTY7xiRPSKdXz93r7UyhSG0YTgpWOc4SEMbN6IA&oe=662496C0"
+                    alt="Image 5"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/407088567_1389390442012331_4087606927105626348_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHaLid_39kt7oxEZRiYhZxcv0AMDmUdToO_QAwOZR1Og-K3S_RhJzcHBUpImFDexCvixJ74VISG8ztFF-E2q0Re&_nc_ohc=YNF3OxudKJcAX_rtkFV&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdTDkkgT7yxcCdGSYUnJXrkvpXJzYqQf7nI7y9lLAqiDlg&oe=662484B1"
+                    alt="Image 6"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433989771_1192326031746913_5867737443223240445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHMqueIQ8fz3Ctk8xUVmnSHXh9tYdFCElReH21h0UISVM-jD3ly7BffYY6zysZypnrgxVHy006B19D9z3kNWtjR&_nc_ohc=zcfZJetCNdMAX8EvYJI&_nc_oc=AdjfVyoOknrXxaB7NKBptrlkXRWwA8eudFB6UWqGn6ojnJqodC3DIHg5mCbNjPdiRBQ&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdQ1AEWU8vkZdjT9gtMRpV2pPZUbs_Jb65ikbMwOkPQysA&oe=66249E64"
+                    alt="Image 9"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433998219_3737951406475632_7487065160708355283_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHTd7lMDZkernk3y1awlBwE5TJHeuYjZvflMkd65iNm99ZKW5ptqNmGs4lGOlxdA55aqyqP4wwuqcG1ZQ-__4Nm&_nc_ohc=0z_gcwOwlfAAX-XVNy2&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdRr2wsVJdI8x5Jt4mG7GqfWPE3hZz1T-Zoj7HaGgWq3Bw&oe=66249D7B"
+                    alt="Image 10"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/434040881_905887814621222_1121371313862718629_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHoc7iwSwhGClV5zyaLQxDLYw56NKUW6kZjDno0pRbqRnDh96ly1OQgriRniX5rDTARmDfU2duvcJX7vI-Esjb_&_nc_ohc=Rg74iMZMZ-cAX-_eoZM&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdTVpG1mAJsbzAh4R7rC2z5MhZX5v1SNck-12WHMno87Hw&oe=66248F45"
+                    alt="Image 11"></div>
+            <div class="col-sm image-column"><img
+                    src="https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.15752-9/433913704_390615897159552_6415649513808630695_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHDd7gcFWz7ytktgjTpO5AQOnlKv8MhK8E6eUq_wyErwf950LbD3Qc8w-1PHW4nA0NyJmaO6CRLh0nc8ybygVth&_nc_ohc=bHVFpbyXgTQAX8i7vgL&_nc_ht=scontent.fmnl14-1.fna&oh=03_AdR9z3_0WTwWbeusJ1YJg10XCw46_rDKpp4idz9vxdRzLg&oe=662635AC"
+                    alt="Image 12"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
